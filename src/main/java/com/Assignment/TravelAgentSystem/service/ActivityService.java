@@ -1,11 +1,11 @@
-package com.Assignment.TravelAgentSystem.Service;
+package com.Assignment.TravelAgentSystem.service;
 
-import com.Assignment.TravelAgentSystem.Entity.Activity;
-import com.Assignment.TravelAgentSystem.Entity.Destination;
-import com.Assignment.TravelAgentSystem.Exceptions.IdAlreadyExistException;
-import com.Assignment.TravelAgentSystem.Exceptions.ResourceNotFoundException;
-import com.Assignment.TravelAgentSystem.Repository.ActivityRepository;
-import com.Assignment.TravelAgentSystem.Repository.DestinationRepository;
+import com.Assignment.TravelAgentSystem.entity.Activity;
+import com.Assignment.TravelAgentSystem.entity.Destination;
+import com.Assignment.TravelAgentSystem.exceptions.IdAlreadyExistException;
+import com.Assignment.TravelAgentSystem.exceptions.ResourceNotFoundException;
+import com.Assignment.TravelAgentSystem.repository.ActivityRepository;
+import com.Assignment.TravelAgentSystem.repository.DestinationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

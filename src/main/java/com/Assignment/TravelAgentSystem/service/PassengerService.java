@@ -1,15 +1,15 @@
-package com.Assignment.TravelAgentSystem.Service;
+package com.Assignment.TravelAgentSystem.service;
 
-import com.Assignment.TravelAgentSystem.Entity.Activity;
-import com.Assignment.TravelAgentSystem.Entity.Destination;
-import com.Assignment.TravelAgentSystem.Entity.Passenger;
-import com.Assignment.TravelAgentSystem.Enums.PassengerType;
-import com.Assignment.TravelAgentSystem.Exceptions.AlreadySignedUpException;
-import com.Assignment.TravelAgentSystem.Exceptions.IdAlreadyExistException;
-import com.Assignment.TravelAgentSystem.Exceptions.ResourceNotFoundException;
-import com.Assignment.TravelAgentSystem.Repository.ActivityRepository;
-import com.Assignment.TravelAgentSystem.Repository.PassengerRepository;
-import com.Assignment.TravelAgentSystem.Repository.TravelPackageRepository;
+import com.Assignment.TravelAgentSystem.entity.Activity;
+import com.Assignment.TravelAgentSystem.entity.Destination;
+import com.Assignment.TravelAgentSystem.entity.Passenger;
+import com.Assignment.TravelAgentSystem.enums.PassengerType;
+import com.Assignment.TravelAgentSystem.exceptions.AlreadySignedUpException;
+import com.Assignment.TravelAgentSystem.exceptions.IdAlreadyExistException;
+import com.Assignment.TravelAgentSystem.exceptions.ResourceNotFoundException;
+import com.Assignment.TravelAgentSystem.repository.ActivityRepository;
+import com.Assignment.TravelAgentSystem.repository.PassengerRepository;
+import com.Assignment.TravelAgentSystem.repository.TravelPackageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

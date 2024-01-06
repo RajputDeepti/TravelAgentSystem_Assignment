@@ -1,6 +1,6 @@
-package com.Assignment.TravelAgentSystem.Repository;
+package com.Assignment.TravelAgentSystem.repository;
 
-import com.Assignment.TravelAgentSystem.Entity.Destination;
+import com.Assignment.TravelAgentSystem.entity.Destination;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

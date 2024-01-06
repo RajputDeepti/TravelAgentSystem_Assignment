@@ -1,8 +1,8 @@
-package com.Assignment.TravelAgentSystem.Controller;
+package com.Assignment.TravelAgentSystem.controller;
 
-import com.Assignment.TravelAgentSystem.Entity.Passenger;
-import com.Assignment.TravelAgentSystem.Exceptions.ValidationException;
-import com.Assignment.TravelAgentSystem.Service.PassengerService;
+import com.Assignment.TravelAgentSystem.entity.Passenger;
+import com.Assignment.TravelAgentSystem.exceptions.ValidationException;
+import com.Assignment.TravelAgentSystem.service.PassengerService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

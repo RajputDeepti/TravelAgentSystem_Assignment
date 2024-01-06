@@ -1,4 +1,4 @@
-package com.Assignment.TravelAgentSystem.Entity;
+package com.Assignment.TravelAgentSystem.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

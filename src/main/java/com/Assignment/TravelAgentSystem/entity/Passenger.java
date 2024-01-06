@@ -1,6 +1,6 @@
-package com.Assignment.TravelAgentSystem.Entity;
+package com.Assignment.TravelAgentSystem.entity;
 
-import com.Assignment.TravelAgentSystem.Enums.PassengerType;
+import com.Assignment.TravelAgentSystem.enums.PassengerType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;

@@ -1,4 +1,4 @@
-package com.Assignment.TravelAgentSystem.Exceptions;
+package com.Assignment.TravelAgentSystem.exceptions;
 
 public class AlreadySignedUpException extends RuntimeException{
 

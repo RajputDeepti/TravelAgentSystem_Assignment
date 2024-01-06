@@ -1,4 +1,4 @@
-package com.Assignment.TravelAgentSystem.Enums;
+package com.Assignment.TravelAgentSystem.enums;
 
 public enum PassengerType {
     STANDARD,

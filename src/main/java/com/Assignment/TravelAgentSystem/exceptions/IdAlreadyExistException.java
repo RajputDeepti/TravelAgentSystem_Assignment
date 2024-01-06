@@ -1,4 +1,4 @@
-package com.Assignment.TravelAgentSystem.Exceptions;
+package com.Assignment.TravelAgentSystem.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

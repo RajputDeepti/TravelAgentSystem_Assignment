@@ -1,4 +1,4 @@
-package com.Assignment.TravelAgentSystem.Exceptions;
+package com.Assignment.TravelAgentSystem.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
     public ResourceNotFoundException(String message){
