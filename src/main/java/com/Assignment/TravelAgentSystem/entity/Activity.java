@@ -10,6 +10,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -44,5 +45,7 @@ public class Activity {
     @ManyToMany(mappedBy = "activities")
     @JsonIgnore
     @Valid
-    private List<Passenger> passengers;
+    private List<Passenger> passengers = new ArrayList<>();
+
+
 }

@@ -46,8 +46,12 @@ public class PassengerService {
         var activity=activityRepository.findById(activityId).orElseThrow(()-> new ResourceNotFoundException("Activity not found with this id: "+activityId));
 
         Destination destination=activity.getDestination();
-        if((destination.getTravelPackage().getId())!=(passenger.getTravelPackage().getId())){
-            throw new ResourceNotFoundException("Invalid activity for the current travel package.");
+        if (destination != null) {
+            if (destination.getTravelPackage().getId() != passenger.getTravelPackage().getId()) {
+                throw new ResourceNotFoundException("Invalid activity for the current travel package.");
+            }
+        } else {
+            throw new ResourceNotFoundException("Destination not found for activity with id: " + activityId);
         }
 
         if (passenger.getActivities().contains(activity)) {

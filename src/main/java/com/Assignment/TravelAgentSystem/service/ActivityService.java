@@ -26,8 +26,12 @@ public class ActivityService {
         }
         Destination destination = destinationRepository.findById(destinationId)
                 .orElseThrow(() -> new ResourceNotFoundException("Destination not found with id: " + destinationId));
-        activity.setDestination(destination);
-        activityRepository.save(activity);
+        if (destination != null) {
+            activity.setDestination(destination);
+            activityRepository.save(activity);
+        } else {
+            throw new ResourceNotFoundException("Destination not found with id: " + destinationId);
+        }
     }
 
     public String getAvailableActivities() {

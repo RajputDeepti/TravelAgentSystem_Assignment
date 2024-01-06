@@ -10,6 +10,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Immutable;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -38,5 +39,5 @@ public class TravelPackage {
     @OneToMany(mappedBy = "travelPackage", cascade = CascadeType.ALL)
     @JsonIgnore
     @Valid
-    private List<Passenger> passengers;
+    private List<Passenger> passengers = new ArrayList<>();
 }
