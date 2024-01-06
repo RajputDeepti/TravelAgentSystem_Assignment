@@ -1,0 +1,7 @@
+package com.Assignment.TravelAgentSystem.Exceptions;
+
+public class ValidationException extends RuntimeException{
+    public ValidationException(String message){
+        super(message);
+    }
+}
