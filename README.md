@@ -9,3 +9,10 @@ Output Snapshot:
 ![ASSIGNMENT-Travel Agent System_page-0006](https://github.com/RajputDeepti/TravelAgentSystem_Assignment/assets/110597883/51d5292e-7d5c-49ca-9caa-200ec2e4ff73)
 ![ASSIGNMENT-Travel Agent System_page-0007](https://github.com/RajputDeepti/TravelAgentSystem_Assignment/assets/110597883/ed8ed99a-da1c-4e95-baa3-1ab882bc3c40)
 ![ASSIGNMENT-Travel Agent System_page-0008](https://github.com/RajputDeepti/TravelAgentSystem_Assignment/assets/110597883/115a1e25-5700-4ade-a057-e1dea1181e7b)
+
+------------------------------------------------------------BLOCK DIAGRAM-----------------------------------------------------------------
+![BlockDiagram](https://github.com/RajputDeepti/TravelAgentSystem_Assignment/assets/110597883/8b438ee3-47db-4a0a-a2ee-e21e545a7a6f)
+
+----------------------------------------------------------UML CLASS DIAGRAM---------------------------------------------------------------
+
+![UMLClassDiagram](https://github.com/RajputDeepti/TravelAgentSystem_Assignment/assets/110597883/554347cc-85e2-4ef3-b7e8-6b7fbc7fb803)
